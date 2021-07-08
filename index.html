@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Capri Yachts</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Capri Yachts</title>
-    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="fileCapri.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Stoke:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="/js/script.js">
+        
+    </script>
 </head>
 <body>
+    <!-- POCZATEK MENU -->
+    <div id="div-menu-container">
+        <ul id="menu">
+            <li><a href="">Strona główna</a></li>
+            <li><a href="">Modele Jachtów</a>
+                <ul>
+                    <li><a href="">Model 1</a></li>
+                    <li><a href="">model 2</a></li>
+                    <li><a href="">model 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Przygoda</a>
+                <ul>
+                    <li><a href="">Przygoda 1</a></li>
+                    <li><a href="">Przygoda 2</a></li>
+                    <li><a href="">Przygoda 3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Styl zycia</a>
+                <ul>
+                    <li><a href="">Styl zycia 1</a></li>
+                    <li><a href="">styl zycia 2</a></li>
+                    <li><a href="">styl zycia 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- KONIEC MENU -->
+
+    <!-- POCZATEK GÓRNEJ CZĘŚCI-->
     <div id="container">
         <div id="top-part-container">
-
-            <div class="image-top-partprzestrzen">
+            <div class="image-top-part przestrzen img1">
                 <a href="https://www.facebook.com/Capri-Yachts-103682265210009/"><img class="image-top" src="/images/przestrzen-capri.png" alt="przestrzen-capri-picture" 
                     onmouseover="this.style.opacity=0.6; this.filters.alpha.opacity=60"
                     onmouseout="this.style.opacity=1; this.filters.alpha.opacity=100"></a>
             </div>
-            <div class="image-top-part styl zycia">
+            <div class="image-top-part styl zycia img2">
                 <a href="https://www.facebook.com/Capri-Yachts-103682265210009/"><img class="image-top" src="/images/styl-zycia-capri.png" alt="styl-zycia-capri-picture"
                     onmouseover="this.style.opacity=0.6; this.filters.alpha.opacity=60"
                     onmouseout="this.style.opacity=1; this.filters.alpha.opacity=100"></a>
             </div>
-            <div class="image-top-part przygoda">
+            <div class="image-top-part przygoda img3">
                 <a href="https://www.facebook.com/Capri-Yachts-103682265210009/"><img class="image-top" src="/images/przygoda-capri.png" alt="przygoda-capri-picture"
                     onmouseover="this.style.opacity=0.6; this.filters.alpha.opacity=60"
                     onmouseout="this.style.opacity=1; this.filters.alpha.opacity=100"></a>
             </div>
         </div>
-        <div id="middle-top-container">
+        <!-- KONIEC GÓRNEJ CZĘŚCI-->
+
+        <!-- POCZĄTEK ŚRODKOWEJ CZĘŚCI-->
+        <div id="middle-container">
             <div class="image-middle-part przestrzen">
                 <a href="https://www.facebook.com/Capri-Yachts-103682265210009/"><img class="image-middle" src="/images/przestrzen-capri.png" alt="przestrzen-capri-picture" 
                     onmouseover="this.style.opacity=0.6; this.filters.alpha.opacity=60"
@@ -45,7 +84,14 @@
             </div>
 
         </div>
-
+        <!-- KONIEC ŚRODKOWEJ CZĘŚCI-->
+        <br>
+        <div id="button_link">
+            <a href="#">Idź do góry</a>
+        </div>
+        <br>
+        <br>
+        <br>
     </div>
 
 </body>
